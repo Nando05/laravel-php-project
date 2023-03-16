@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  server:
+    image: 'ngnix:stable-alpine'
+    ports:
+      - '8000:80'
+    
+  # php:
+  # mysql:
+  # composer:
+  # artisan:
+  # npm:
