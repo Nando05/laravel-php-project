@@ -1,3 +1,5 @@
+version: "3.8"
+
 services:
   server:
     image: 'nginx:stable-alpine'
