@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   server:
-    image: 'ngnix:stable-alpine'
+    image: 'nginx:stable-alpine'
     ports:
       - '8000:80'
     volumes:
